@@ -1,5 +1,5 @@
 void main() { 
    var car = {'Maruti':'Omni','Tata':'Nexon'}; 
-   details['Tyota'] = 'Supra'; 
-   print(details); 
+   car['Tyota'] = 'Supra'; 
+   print(car); 
 } 
