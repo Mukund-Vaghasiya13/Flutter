@@ -1,4 +1,5 @@
-void main() {
-  var sets = {1, 2, 3};
-  print(sets);
-}
+void main() { 
+   var car = {'Maruti':'Omni','Tata':'Nexon'}; 
+   details['Tyota'] = 'Supra'; 
+   print(details); 
+} 
