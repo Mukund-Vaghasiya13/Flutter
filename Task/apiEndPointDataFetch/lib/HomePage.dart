@@ -32,6 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
       final jsonData = jsonDecode(response.body);
       print(jsonData);
       setState(() {
+        // creating list from itemCount which is array/list[but it type is not list it's dynamic it can be list/map[dic]] of articles ,of the json data
         listOfData =
             List.from(jsonData).map((e) => ApiData.fromJson(e)).toList();
       });
